@@ -11,7 +11,7 @@ class HelloWorld
         $this->name = $name;
     }
 
-    public function sayHello()asdfsdf
+    public function sayHello()
     {
         return 'Hello ' . $this->name;
     }
