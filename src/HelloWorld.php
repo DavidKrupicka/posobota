@@ -7,7 +7,7 @@ class HelloWorld
     private $name;
 
     public function __construct($name)
-    { sageas g
+    {
         $this->name = $name;
     }
 
