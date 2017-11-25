@@ -1,4 +1,12 @@
 {
     "name": "posobota/hello-world",
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PosledniSobota\\": "src/",
+            "PosledniSobota\\Tests\\": "tests/"
+        }
+    }
 }
